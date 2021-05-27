@@ -23,9 +23,8 @@ const Team = (props) => {
                                 <Card.Title>Name:{strTeam}  </Card.Title>
                                 <Card.Text>Sports type: {strSport}</Card.Text>
                                 <Link to={`/team/${idTeam}`}>
-                                    <Button variant="primary">Explore</Button>
+                                    <Button onClick={handleClick}variant="primary">Explore</Button>
                                 </Link>
-                                {/* {teams.map(team => <TeamDetail team={team}></TeamDetail>)} */}
                             </Card.Body>
                         </Card>
                     </Col>
