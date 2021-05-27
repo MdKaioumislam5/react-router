@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+.backUrl{
+  color:'';
+  margin: 40px;
+  padding: 10px;
+  background-image: url('https://i2-prod.mirror.co.uk/incoming/article13974364.ece/ALTERNATES/s1200b/0_Atletico-Madrid-v-Girona-Copa-del-Rey-Round-of-16-Second-Leg.jpg')
+}
+.mainImage{
+  height:100px;
+  width: 25px;
+}
+.backColor{
+  background-color: blanchedalmond;
+}
